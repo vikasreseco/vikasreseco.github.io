@@ -4,17 +4,19 @@ title = "Working Papers"
 
 ## Current Draft
 
-**Programmable Money as Policy: A Digital Envelope Model for CBDC Design**
+**The State lambda Paradox: Programmable Friction, Welfare Targeting, and the Case for Dual-Track CBDC Design**
 
-This paper explores whether programmable features in retail CBDCs can be designed as a policy tool without becoming overly restrictive or welfare-reducing. The draft focuses on a "digital envelope" approach, where funds can be guided toward selected policy goals while preserving usability for households.
+This paper studies the trade-offs involved in programmable retail CBDC design, with a focus on welfare targeting, restrictions, and the broader policy logic behind dual-track architectures.
 
 ### Themes
 
+- Programmable friction
 - Targeted transfers
 - Household spending behavior
 - Policy credibility
 - Design trade-offs in programmable payment systems
 
-### Status
+### Links
 
-Draft available on request.
+- [Read on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6729898)
+- [Zenodo record](https://zenodo.org/records/20231265)

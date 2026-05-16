@@ -18,11 +18,20 @@ I am especially interested in how programmable money and payment system design c
 
 ## Working Paper
 
-- **Programmable Money as Policy: A Digital Envelope Model for CBDC Design**. Draft in progress.
+- **The State lambda Paradox: Programmable Friction, Welfare Targeting, and the Case for Dual-Track CBDC Design**.
+- [SSRN abstract](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6729898)
+- [Zenodo record](https://zenodo.org/records/20231265)
+
+## Research Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/vikas-res-eco)
+- [GitHub](https://github.com/vikasreseco)
+- [SSRN Author Page / Paper Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6729898)
+- [Zenodo](https://zenodo.org/records/20231265)
 
 ## Contact
 
-- Email: `youremail@example.com`
 - GitHub: [github.com/vikasreseco](https://github.com/vikasreseco)
+- LinkedIn: [linkedin.com/in/vikas-res-eco](https://www.linkedin.com/in/vikas-res-eco)
 
-You can also find my academic CV and project updates through the navigation links above.
+You can also find my CV and current research links through the navigation above.

@@ -30,11 +30,17 @@ enableRobotsTXT = true
     url = "/cv/"
 
   [[params.social]]
-    name = "Email"
-    url = "mailto:youremail@example.com"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/vikas-res-eco"
   [[params.social]]
     name = "GitHub"
     url = "https://github.com/vikasreseco"
+  [[params.social]]
+    name = "SSRN"
+    url = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6729898"
+  [[params.social]]
+    name = "Zenodo"
+    url = "https://zenodo.org/records/20231265"
 
 [menu]
   [[menu.main]]
