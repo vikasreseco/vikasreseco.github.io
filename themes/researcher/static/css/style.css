@@ -1,0 +1,137 @@
+:root {
+  --text: #1f2933;
+  --muted: #52606d;
+  --accent: #0f766e;
+  --border: #d9e2ec;
+  --bg: #f8fbfa;
+  --card: #ffffff;
+}
+
+html {
+  font-size: 17px;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.08), transparent 28%),
+    linear-gradient(180deg, #f6faf8 0%, #fbfcfd 100%);
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  line-height: 1.7;
+}
+
+.page {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+  color: var(--text);
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.site-subtitle {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+  max-width: 46rem;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.nav a,
+.social-links a,
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.nav a:hover,
+.social-links a:hover,
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.article h1 {
+  font-size: 1.85rem;
+  margin-bottom: 1.25rem;
+}
+
+.article h2 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.article h3 {
+  margin-top: 1.4rem;
+  font-size: 1rem;
+}
+
+.article img {
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+  background: #fff;
+}
+
+.article ul {
+  padding-left: 1.2rem;
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+code {
+  padding: 0.1rem 0.28rem;
+  border-radius: 0.25rem;
+  background: #eef4f3;
+  font-size: 0.92em;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+
+  .page {
+    padding-top: 1.5rem;
+  }
+
+  .site-title {
+    font-size: 1.7rem;
+  }
+}

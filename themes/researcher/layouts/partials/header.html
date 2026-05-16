@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="title-wrap">
+    <a class="site-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+    <p class="site-subtitle">{{ .Site.Params.description }}</p>
+  </div>
+  <nav class="nav">
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</header>

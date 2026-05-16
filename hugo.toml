@@ -1,0 +1,59 @@
+baseURL = "https://vikasreseco.github.io/"
+languageCode = "en-us"
+title = "Vikas Kumar"
+theme = "researcher"
+enableRobotsTXT = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+  author = "Vikas Kumar"
+  description = "MA Economics student at UPRTOU with research interests in digital currencies, household finance, and CBDC design."
+  favicon = ""
+
+  [params.style]
+    accent = "#0f766e"
+
+  [[params.navbar]]
+    name = "About"
+    url = "/"
+  [[params.navbar]]
+    name = "Working Papers"
+    url = "/working-papers/"
+  [[params.navbar]]
+    name = "Teaching"
+    url = "/teaching/"
+  [[params.navbar]]
+    name = "CV"
+    url = "/cv/"
+
+  [[params.social]]
+    name = "Email"
+    url = "mailto:youremail@example.com"
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/vikasreseco"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "papers"
+    name = "Working Papers"
+    url = "/working-papers/"
+    weight = 2
+  [[menu.main]]
+    identifier = "teaching"
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 3
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 4

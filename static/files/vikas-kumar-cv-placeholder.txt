@@ -1,0 +1,4 @@
+Vikas Kumar CV placeholder
+
+Replace this PDF with your actual CV before publishing:
+static/files/vikas-kumar-cv.pdf

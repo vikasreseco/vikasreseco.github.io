@@ -1,0 +1,8 @@
+<footer class="site-footer">
+  <div class="social-links">
+    {{ range .Site.Params.social }}
+      <a href="{{ .url }}">{{ .name }}</a>
+    {{ end }}
+  </div>
+  <p>Built with Hugo and deployed on GitHub Pages.</p>
+</footer>
