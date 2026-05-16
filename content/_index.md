@@ -6,9 +6,9 @@ Hi! I am an MA Economics student at **UPRTOU, Prayagraj**, graduating June 2026.
 
 My research focuses on digital currencies, CBDC design, and household spending behaviour in India's post-demonetisation digital transition. I am interested in how programmable money and payment system design shape household welfare and public policy delivery.
 
-I am supervised by Vibhas Jha (PhD, MIT). My dissertation is titled *Invisible Money, Visible Effects: How India's Triple Digital Transition Changed Household Spending Psychology — and What It Means for Europe's Digital Euro.*
+I am supervised by Dr. Harendra Kumar, Assistant Professor. My dissertation is titled *Invisible Money, Visible Effects: How India's Triple Digital Transition Changed Household Spending Psychology — and What It Means for Europe's Digital Euro.*
 
-You can reach me at: youremail@gmail.com
+You can reach me at: vikas.res.eco@gmail.com
 
 ## Working Papers
 
