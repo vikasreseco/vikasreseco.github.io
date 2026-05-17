@@ -191,7 +191,7 @@ nav.hidden { transform: translateY(-100%); }
 section { padding: 8rem 0; position: relative; z-index: 1; }
 
 #home {
-  padding-top: 0;
+  padding-top: 110px;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -1370,6 +1370,15 @@ footer {
   }
   html { scroll-behavior: auto; }
 }
+
+/* Fix avatar cutoff */
+#home { padding-top: 110px !important; }
+@media (max-width: 900px) {
+  #home { padding-top: 90px !important; }
+  .hero-inner { padding-top: 1rem; }
+}
+.avatar-wrap img { object-position: center 18% !important; }
+
 </style>
 </head>
 <body>
@@ -1417,7 +1426,7 @@ footer {
       <div class="profile-col">
         <div class="avatar-wrap" data-hover>
           <div class="avatar-inner">
-            <img id="profile-photo" src="avatar.jpg" alt="Vikas Kumar" style="display:block;">
+            <img id="profile-photo" src="avatar.jpg" alt="Vikas Kumar" style="display:block; object-position: center 20%; transform: scale(0.95);">
             <div class="avatar-placeholder">
               <svg viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="45" cy="32" r="16" fill="rgba(212,175,55,0.15)" stroke="rgba(212,175,55,0.25)" stroke-width="1"/>
